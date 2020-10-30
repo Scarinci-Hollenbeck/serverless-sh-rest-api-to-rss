@@ -1,0 +1,27 @@
+{
+  "name": "rss-helper-utilities",
+  "version": "1.0.0",
+  "description": "chron app turning wp rest data into rss feed",
+  "main": "index.js",
+  "author": "peter t",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express-async-await": "^1.1.0",
+    "jade": "^1.11.0",
+    "jstoxml": "^2.0.1",
+    "node-fetch": "^2.6.1",
+    "rss": "^1.2.2"
+  },
+  "scripts": {
+    "build": "netlify-lambda build express",
+    "start": "nodemon server-local.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "nodemon": "^1.19.2",
+    "serverless-http": "^2.3.0"
+  }
+}
