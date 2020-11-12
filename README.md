@@ -1,3 +1,3 @@
-# Scarincihollenbeck.com WP-REST Endpoint to RSS
+# WP-REST Endpoint to RSS
 
-This microservice takes in a WP-REST API endpoint from scarincihollenbeck and returns an RSS Feed.
+This serverless script converts scarincihollenbekc.com json based blog post feeds and converts them to RSS.
